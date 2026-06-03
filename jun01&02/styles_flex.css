@@ -1,0 +1,25 @@
+.container{
+    border:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items: center;
+    height: 300px;
+    border:2px solid black;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}

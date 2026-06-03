@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media Query Example</title>
+
+<style>
+.item{
+    background-color: red;
+    width:100px;
+    height:100px;
+    margin:20px;
+    color:white;
+    text-align:center;
+    line-height:100px;
+}
+
+@media screen and (min-width:400px){
+    .item{
+        background-color: blue;
+        width:200px;
+        height:200px;
+        line-height:200px;
+    }
+@media screen and (min-width:768px){
+    .item{
+        background-color: blueviolet;
+        width:250px;
+        height:300px;
+        line-height:200px;
+
+    }
+}
+}
+
+</style>
+</head>
+<body>
+
+<div class="item">Division1</div>
+<div class="item">Division2</div>
+<div class="item">Division3</div>
+
+</body>
+</html>

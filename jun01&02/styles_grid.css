@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    padding: 30px;
+    margin:100px;
+    
+}
+
+.item{
+    background-color: lightblue;
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
