@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Student Profile</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="css/styles.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container">
+
+            <a class="navbar-brand"
+                href="index.html">
+
+                College Portal
+
+            </a>
+
+            <button class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="registration.html">
+                            Registration
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="dashboard.html">
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                            href="profile.html">
+                            Profile
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= PAGE TITLE ================= -->
+
+    <div class="container mt-5">
+
+        <h2 class="text-center">
+            Student Profile
+        </h2>
+
+    </div>
+
+    <!-- ================= PROFILE CARD ================= -->
+
+    <div class="container my-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+
+                <div class="card shadow">
+
+                    <img src="images/profile.jpg"
+                        class="card-img-top"
+                        alt="Student Profile">
+                        
+
+                    <div class="card-body text-center">
+
+                        <h3 class="card-title">
+                            Naresh Varma
+                        </h3>
+
+                        <hr>
+
+                        <p>
+                            <strong>Roll Number :</strong>
+                            23B81A05U7
+                        </p>
+
+                        <p>
+                            <strong>Branch :</strong>
+                            Computer Science Engineering
+                        </p>
+
+                        <p>
+                            <strong>Email :</strong>
+                            nareshvarma@gmail.com
+                        </p>
+
+                        <p>
+                            <strong>Mobile :</strong>
+                            8125895199
+                        </p>
+
+                        <p>
+                            <strong>Attendance :</strong>
+
+                            <span class="badge bg-success">
+                                95%
+                            </span>
+
+                        </p>
+
+                        <button class="btn btn-primary">
+
+                            Edit Profile
+
+                        </button>
+
+                        <button class="btn btn-success"
+                            data-bs-toggle="modal"
+                            data-bs-target="#idCardModal">
+
+                            View ID Card
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= STUDENT ID CARD MODAL ================= -->
+
+    <div class="modal fade"
+        id="idCardModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header bg-primary text-white">
+
+                    <h5 class="modal-title">
+
+                        Student Identity Card
+
+                    </h5>
+
+                    <button type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body text-center">
+
+                    <div class="card border-primary">
+
+                        <div class="card-header bg-primary text-white">
+
+                            ABC Engineering College
+
+                        </div>
+
+                        <div class="card-body">
+
+                           <img src="images/id-card.jpg"
+                             class="rounded-circle mb-3"
+                                width="120"
+                                alt="Student">
+
+                            <h4>
+                                Naresh Kumar
+                            </h4>
+
+                            <p>
+                                Roll No :
+                                23B81A05U7
+                            </p>
+
+                            <p>
+                                Branch :
+                                CSE
+                            </p>
+
+                            <p>
+                                Valid Till :
+                                2027
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="btn btn-secondary"
+                        data-bs-dismiss="modal">
+
+                        Close
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= ACHIEVEMENTS SECTION ================= -->
+
+    <div class="container my-5">
+
+        <h3 class="text-center mb-4">
+            Achievements
+        </h3>
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="card text-center shadow">
+
+                    <div class="card-body">
+
+                        <h5>
+                            Academic Excellence
+                        </h5>
+
+                        <p>
+                            CGPA: 9.2
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card text-center shadow">
+
+                    <div class="card-body">
+
+                        <h5>
+                            Coding Contest
+                        </h5>
+
+                        <p>
+                            Winner - College Hackathon
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card text-center shadow">
+
+                    <div class="card-body">
+
+                        <h5>
+                            Certifications
+                        </h5>
+
+                        <p>
+                            Java & Web Development
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p>
+            © 2026 Student Management Portal
+        </p>
+
+        <p>
+            Student Profile Page
+        </p>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

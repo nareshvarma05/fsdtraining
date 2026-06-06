@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f8f9fa;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.carousel img{
+    height:500px;
+    object-fit:cover;
+}
+
+footer{
+    margin-top:40px;
+}
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+h2{
+    font-weight:700;
+}
