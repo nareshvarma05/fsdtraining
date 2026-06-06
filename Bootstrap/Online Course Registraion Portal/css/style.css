@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card{
+    transition: 0.3s;
+    border: none;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+h1,h2,h3{
+    font-weight: 700;
+}
