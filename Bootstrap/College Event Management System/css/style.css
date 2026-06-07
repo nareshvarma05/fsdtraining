@@ -1,0 +1,147 @@
+/* ======================
+   GENERAL STYLES
+====================== */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* ======================
+   NAVBAR
+====================== */
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* ======================
+   CAROUSEL
+====================== */
+
+.carousel img{
+    height: 500px;
+    object-fit: cover;
+}
+
+/* ======================
+   CARDS
+====================== */
+
+.card{
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ======================
+   GALLERY IMAGES
+====================== */
+
+.gallery-img{
+    cursor: pointer;
+}
+
+.gallery-img:hover{
+    opacity: 0.9;
+}
+
+/* ======================
+   TABLE
+====================== */
+
+.table{
+    background-color: white;
+}
+
+/* ======================
+   BUTTONS
+====================== */
+
+.btn{
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/* ======================
+   ACCORDION
+====================== */
+
+.accordion-button{
+    font-weight: 600;
+}
+
+/* ======================
+   ALERTS
+====================== */
+
+.alert{
+    border-radius: 10px;
+}
+
+/* ======================
+   FORM
+====================== */
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+/* ======================
+   FOOTER
+====================== */
+
+footer{
+    margin-top: 40px;
+}
+
+/* ======================
+   PAGE HEADINGS
+====================== */
+
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
+
+/* ======================
+   COORDINATOR IMAGE
+====================== */
+
+.rounded-circle{
+    border: 4px solid #0d6efd;
+}
+
+/* ======================
+   RESPONSIVE DESIGN
+====================== */
+
+@media(max-width:768px){
+
+    .carousel img{
+        height:250px;
+    }
+
+    .card-img-top{
+        height:180px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+}
