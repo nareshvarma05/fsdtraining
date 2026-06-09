@@ -61,7 +61,20 @@ let student1={
 
 //objects with adding properties
 let student2={
-    name:Naresh
+    name:"Naresh"
 };
 student2.age=21;
 console.log(student2);
+
+
+//nested objects
+let student4= {
+    name: "Naresh",
+
+    address: {
+        city: "Hyderabad",
+        state: "Telangana"
+    }
+};
+
+console.log(student4.address.city);
